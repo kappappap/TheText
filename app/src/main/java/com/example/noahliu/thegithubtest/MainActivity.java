@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Log.d("test","上傳測試");
-                Toast.makeText(getApplicationContext(),"Push",Toast.LENGTH_SHORT);
+                Toast.makeText(getApplicationContext(),"Push",Toast.LENGTH_SHORT);//
             }
         });
 
