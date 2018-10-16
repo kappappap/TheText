@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
         Button bt;
@@ -18,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Log.d("test","上傳測試");
+                Toast.makeText(getApplicationContext(),"Push",Toast.LENGTH_SHORT);
             }
         });
 
